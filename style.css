@@ -10,12 +10,8 @@ body{
     
 .fist{
     position: absolute;
-    left: 55px;
-    
-}
-
-nav{
-    border: 3px solid black; 
+    left: 65px;
+    flex-wrap: wrap;
 }
 
 #threeliners {
@@ -28,9 +24,9 @@ nav{
 #threeliners div {
     background-color: black;
     width: 40px;
-    height: 5px;
+    height: 3px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid black;
 }
 
@@ -39,15 +35,17 @@ nav {
     top: 0px;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: end;
     background-color: #deaa88;
     flex-wrap: wrap;
+    border: 3px solid black; 
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
+    float: right;
     flex-wrap: wrap;
     margin-left:100px;
 }
@@ -56,5 +54,15 @@ nav li {
     list-style: none;
     display: flex;
     margin: 10px;
+    justify-content: end;
     flex-wrap: wrap;
+}
+
+header{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+flex-wrap: wrap;
+margin-top: 10px;
 }
