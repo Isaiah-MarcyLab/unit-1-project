@@ -58,6 +58,40 @@ nav li {
     flex-wrap: wrap;
 }
 
+
+section h2{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    
+}
+
+section ol{
+    list-style:none;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    
+}
+
+img{
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+}
+
+#section-img{
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+#section-img2{
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
 header{
 display: flex;
 flex-direction: column;
@@ -116,6 +150,7 @@ footer{
 
 }
 
+<<<<<<< HEAD
 
 
 .rec1{
@@ -131,3 +166,5 @@ flex-wrap:wrap;
    
   
 }
+=======
+>>>>>>> 4e066a23110d9e19afc3c22b6b9d18ada0702b53
