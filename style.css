@@ -58,3 +58,28 @@ nav li {
     margin: 10px;
     flex-wrap: wrap;
 }
+
+section h2{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    
+}
+
+section ol{
+    list-style:none;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    
+}
+
+img{
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+}
+
+#section-img2{
+    
+}
