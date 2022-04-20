@@ -10,12 +10,8 @@ body{
     
 .fist{
     position: absolute;
-    left: 55px;
-    
-}
-
-nav{
-    border: 3px solid black; 
+    left: 65px;
+    flex-wrap: wrap;
 }
 
 #threeliners {
@@ -28,9 +24,9 @@ nav{
 #threeliners div {
     background-color: black;
     width: 40px;
-    height: 5px;
+    height: 3px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid black;
 }
 
@@ -39,15 +35,17 @@ nav {
     top: 0px;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: end;
     background-color: #deaa88;
     flex-wrap: wrap;
+    border: 3px solid black; 
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
+    float: right;
     flex-wrap: wrap;
     margin-left:100px;
 }
@@ -56,5 +54,61 @@ nav li {
     list-style: none;
     display: flex;
     margin: 10px;
+    justify-content: end;
     flex-wrap: wrap;
+}
+
+header{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+flex-wrap: wrap;
+margin-top: 10px;
+}
+.Mental{
+    display:flex;
+    position:absolute;
+    flex-wrap:wrap;
+    bottom:80px;
+   justify-content:center;
+  
+}
+.container{
+    display:flex;
+    justify-content:center;
+     flex-wrap:wrap;
+    
+}
+.clickme{
+    display:flex;
+    align-items:flex-end;
+    border-radius: 20px;
+     flex-wrap:wrap;
+    
+}
+.container12 {
+display:flex;
+justify-content:space-between;
+    padding: 4px;
+    width:100%;
+    bottom: 1px;
+    margin:auto;
+}
+
+
+
+footer{
+   display:flex;
+   flex-direction:row;
+   margin:auto;
+   justify-content:space-between;
+   flex-wrap:wrap;
+    position: absolute;
+    bottom:1px;
+    float: left;
+   width: 100%;
+
+    text-align:center
+
 }
