@@ -6,6 +6,8 @@
 
 body{
     background-color: #deaa88;
+    height:1550px;
+    
 }
     
 .fist{
@@ -100,6 +102,38 @@ text-align: center;
 flex-wrap: wrap;
 margin-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Mental{
     display:flex;
     position:absolute;
@@ -110,7 +144,7 @@ margin-top: 10px;
 }
 .container{
     display:flex;
-    
+    position:relative;
      flex-wrap:wrap;
      flex-direction:row;
     
@@ -127,10 +161,12 @@ margin-top: 10px;
 .container12 {
 display:flex;
 justify-content:space-between;
-    padding: 4px;
+    padding: 30px;
     width:100%;
+    position:absolute;
     bottom: 1px;
     margin:auto;
+   
 }
 
 
@@ -138,19 +174,19 @@ justify-content:space-between;
 footer{
    display:flex;
    flex-direction:row;
-   margin:auto;
+   
    justify-content:space-between;
    flex-wrap:wrap;
     position: absolute;
-    bottom:1px;
-    float: left;
+    top:1500px;
+   
    width: 100%;
+
 
     text-align:center
 
 }
 
-<<<<<<< HEAD
 
 
 .rec1{
@@ -166,5 +202,3 @@ flex-wrap:wrap;
    
   
 }
-=======
->>>>>>> 4e066a23110d9e19afc3c22b6b9d18ada0702b53
