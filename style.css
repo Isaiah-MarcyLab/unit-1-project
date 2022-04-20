@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #deaa88;
+}
+    
+.fist{
+    position: absolute;
+    left: 55px;
+    
+}
+
+nav{
+    border: 3px solid black; 
+}
+
+#threeliners {
+    position: absolute;
+    left: 10px;
+   
+    
+}
+
+#threeliners div {
+    background-color: black;
+    width: 40px;
+    height: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #deaa88;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left:100px;
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
