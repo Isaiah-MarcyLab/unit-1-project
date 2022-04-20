@@ -76,9 +76,12 @@ margin-top: 10px;
 }
 .container{
     display:flex;
-    justify-content:center;
-     flex-wrap:wrap;
     
+     flex-wrap:wrap;
+     flex-direction:row;
+    
+    
+   
 }
 .clickme{
     display:flex;
@@ -111,4 +114,20 @@ footer{
 
     text-align:center
 
+}
+
+
+
+.rec1{
+      display: flex;
+  
+flex-wrap:wrap;
+  justify-content:end;
+    background-color:pink;
+    border-radius: 134px;
+
+    height:246px;
+    width:246px;
+   
+  
 }
