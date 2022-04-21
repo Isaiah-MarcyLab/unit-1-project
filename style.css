@@ -147,13 +147,13 @@ margin-top: 10px;
     display:flex;
     
     justify-content:space-evenly;
-    margin:100px;
+
      flex-wrap:wrap;
      flex-direction:row;
      width:100%;
-     top:850px;
-     left:50px;
-     position: absolute;
+     top:120px;
+     right:300px;
+     position: relative;
      
      
     
@@ -200,10 +200,9 @@ footer{
 .imagecontainer{
     display:flex;
     position:absolute;
-     left:700px;
-     top:700px;
+     left:1150px;
+     top:850px;
      
-    
     
 }
 
@@ -249,6 +248,7 @@ flex-wrap:wrap;
     width:346px;
 object-fit: cover;
     margin:auto;
+    float:left;
     
 }
 
@@ -262,7 +262,7 @@ object-fit: cover;
     
    
     font-size:0;
-    animation: 30s slidy infinite;
+    animation: 5s slidy infinite;
     
     
 }
