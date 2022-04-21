@@ -6,6 +6,8 @@
 
 body{
     background-color: #deaa88;
+    height:1550px;
+    
 }
     
 .fist{
@@ -100,19 +102,59 @@ text-align: center;
 flex-wrap: wrap;
 margin-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Mental{
     display:flex;
     position:absolute;
     flex-wrap:wrap;
     bottom:80px;
    justify-content:center;
+   position:relative;
   
 }
 .container{
     display:flex;
-    justify-content:center;
+    position:relative;
+    justify-content:space-evenly;
+    margin:100px;
      flex-wrap:wrap;
+     flex-direction:row;
+     width:1500px;
+     align-items:end;
     
+    
+   
 }
 .clickme{
     display:flex;
@@ -124,10 +166,12 @@ margin-top: 10px;
 .container12 {
 display:flex;
 justify-content:space-between;
-    padding: 4px;
+    padding: 30px;
     width:100%;
+    position:absolute;
     bottom: 1px;
     margin:auto;
+   
 }
 
 
@@ -135,15 +179,32 @@ justify-content:space-between;
 footer{
    display:flex;
    flex-direction:row;
-   margin:auto;
+   
+   
    justify-content:space-between;
    flex-wrap:wrap;
     position: absolute;
-    bottom:1px;
-    float: left;
+    top:1500px;
+   
    width: 100%;
+
 
     text-align:center
 
 }
 
+
+
+.rec1{
+      display: flex;
+position:relative;
+flex-wrap:wrap;
+  justify-content:end;
+    background-color:pink;
+    border-radius: 134px;
+
+    height:246px;
+    width:246px;
+   
+  
+}
