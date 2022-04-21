@@ -233,9 +233,26 @@ flex-wrap:wrap;
     
 }
     
+#Slideshow figure img{
+    overflow: hidden;
+}
+#Slideshow figure{
+    overflow: hidden;
+}
 #Slideshow{
     overflow: hidden;
 }
+#Slideshow figure{
+    
+   height:346px;
+    width:346px;
+object-fit: cover;
+    margin:auto;
+    animation: 5s slidy infinite;
+    
+    
+}
+    
 #Slideshow figure img{
     
     display: flex;
@@ -252,23 +269,7 @@ object-fit: cover;
     
 }
 
-#Slideshow figure{
-    
-   height:346px;
-    width:346px;
-object-fit: cover;
-    margin:auto;
 
-    
-   
-    font-size:0;
-    animation: 5s slidy infinite;
-    
-    
-}
-    
-    
-    
     
     
 
