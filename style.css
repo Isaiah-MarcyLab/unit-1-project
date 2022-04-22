@@ -6,6 +6,7 @@
 
 body{
     background-color: #deaa88;
+    width: 100%;
 }
     
 a{
@@ -108,71 +109,7 @@ text-align: center;
 flex-wrap: wrap;
 margin-top: 10px;
 }
-.Mental{
-    display:flex;
-    position:absolute;
-    flex-wrap:wrap;
-    bottom:80px;
-   justify-content:center;
-  
-}
-.container{
-    display:flex;
-    
-     flex-wrap:wrap;
-     flex-direction:row;
-    
-    
-   
-}
-.clickme{
-    display:flex;
-    align-items:flex-end;
-    border-radius: 20px;
-     flex-wrap:wrap;
-    
-}
-.container12 {
-display:flex;
-justify-content:space-between;
-    padding: 4px;
-    width:100%;
-    bottom: 1px;
-    margin:auto;
-}
 
-
-
-footer{
-   display:flex;
-   flex-direction:row;
-   margin:auto;
-   justify-content:space-between;
-   flex-wrap:wrap;
-    position: absolute;
-    bottom:1px;
-    float: left;
-   width: 100%;
-
-    text-align:center
-
-}
-
-
-
-.rec1{
-      display: flex;
-  
-flex-wrap:wrap;
-  justify-content:end;
-    background-color:pink;
-    border-radius: 134px;
-
-    height:246px;
-    width:246px;
-   
-  
-}
 
 .button{
     font-size: 1em;
@@ -205,4 +142,84 @@ input{
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+
+/*------------------------------------------*/
+
+
+
+.Mental{
+    display:flex;
+    position:absolute;
+    flex-wrap:wrap;
+    bottom:80px;
+   justify-content:center;
+   position:relative;
+  
+}
+.container{
+    display:flex;
+    position:relative;
+    justify-content:space-evenly;
+    margin:100px;
+     flex-wrap:wrap;
+     flex-direction:row;
+     width:1500px;
+     align-items:end;
+    
+    
+   
+}
+.clickme{
+    display:flex;
+    align-items:flex-end;
+    border-radius: 20px;
+     flex-wrap:wrap;
+    
+}
+.container12 {
+display:flex;
+justify-content:space-between;
+    padding: 30px;
+    width:100%;
+    position:absolute;
+    bottom: 1px;
+    margin:auto;
+   
+}
+
+
+
+footer{
+   display:flex;
+   flex-direction:row;
+   
+   
+   justify-content:space-between;
+   flex-wrap:wrap;
+    position: absolute;
+    top:1500px;
+   
+   width: 100%;
+
+
+    text-align:center
+
+}
+
+
+
+.rec1{
+      display: flex;
+position:relative;
+flex-wrap:wrap;
+  justify-content:end;
+    background-color:pink;
+    border-radius: 134px;
+
+    height:246px;
+    width:246px;
+   
+  
 }
