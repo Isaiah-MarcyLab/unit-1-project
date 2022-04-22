@@ -7,7 +7,7 @@
 body{
     display:flex;
     flex-wrap:wrap;
-   background-image: url(https://unsplash.com/photos/IGMABomGhr8);
+   background-color:lightblue;
     height:100%;
     width:100%;
     position:absolute;
@@ -75,8 +75,8 @@ main{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    background-color: white;
+
      background-size: cover;
     background-repeat: no-repeat;
-background-image: url(https://unsplash.com/photos/IGMABomGhr8)
+background-image: url(blm.jpg)
 }
