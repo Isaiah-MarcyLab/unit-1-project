@@ -49,11 +49,14 @@ body{
   background-color: #80461b
 }
 
-a{
+#theNav ul li a{
     color: #80461b;
     text-decoration: none;
 }
-
+article a{
+    color: black;
+    margin-bottom: 30px;
+}
 #theNav ul {
     list-style: none;
     display: flex;
