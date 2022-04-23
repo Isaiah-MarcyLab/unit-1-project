@@ -9,7 +9,7 @@
 }
 
 .fist{
-    color: skyblue;
+    color: #80461b;
 }
 #threeliners {
     position: absolute;
@@ -18,7 +18,7 @@
 }
 
 #threeliners div {
-    background-color: skyblue;
+    background-color:#80461b;
     width: 40px;
     height: 5px;
     margin: 5px;
@@ -42,16 +42,22 @@
     display: flex;
     text-align: center;
     justify-content: space-around;
-    background-color: #1E2D47;
+    background-color:white;
+    border-bottom: solid black 3px;
 }
 
+body{
+  background-color: #80461b
+}
 
-
-a{
-    color: white;
+#theNav ul li a{
+    color: #80461b;
     text-decoration: none;
 }
-
+article a{
+    color: black;
+    margin-bottom: 30px;
+}
 #theNav ul {
     list-style: none;
     display: flex;
@@ -67,23 +73,6 @@ a{
     flex-wrap: wrap;
 }
 
-body{
-  background-color: #54626F;
-}
-h3{
-    border: solid black 3px;
-    width: 100px
-}
-article{
-    width: 400px;
-    height: 200px;
-    
-}
-
-img{
-    border-radius: 200px;
-}
-
 header {
     display: flex;
     flex-direction: column;
@@ -91,16 +80,8 @@ header {
     flex-wrap: wrap;
 }
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 2000px;
-    width: auto;
-    text-align: center;
-    padding: 10px;
-    flex-wrap: wrap;
+article h2{
+    margin-bottom: 10px;
+    margin-top:10px;
 }
-
 
