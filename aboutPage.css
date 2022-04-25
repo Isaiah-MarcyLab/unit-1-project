@@ -122,14 +122,22 @@ header {
 
 footer {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
     position: absolute;
-    top: 2000px;
-    width: auto;
+    bottom:5px;
+    width: 100%;
     text-align: center;
-    padding: 10px;
-    flex-wrap: wrap;
 }
+.container12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+    margin: auto;
 
-
+}
