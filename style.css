@@ -8,9 +8,16 @@
 }
  
 body {
+<<<<<<< HEAD
+    background-clip:url(blm3.mp4);
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+=======
  display: flex;
  flex-wrap:wrap;
  
+>>>>>>> 78844182fa613fabba97c069bd71f268dcc4c46b
 
 }
 
@@ -48,7 +55,6 @@ nav {
     text-align: center;
     justify-content: space-around;
     background-color: #987456;
-
     width: 100%;
 
 }
@@ -131,26 +137,7 @@ imgContainer {
     top: 310px;
 }
 
-#section-img {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: calc(100% /6);
-    height: calc(100%/6);
-    margin: 10px;
-    border: 1px solid #000;
-    border-radius: 3px;
-}
-
 #section-iframe {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-#section-img2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -182,7 +169,7 @@ article {
 .button {
     font-size: 1em;
     font-weight: 100;
-    margin-left: 110px;
+    margin-left: 10px;
     background-color: #a0785a;
     width: 60px;
     height: 30px;
@@ -199,6 +186,11 @@ input {
     background-color: #a0785a;
     color: black;
 }
+#submit > .button{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
 
 ::placeholder {
     color: black;
@@ -212,22 +204,8 @@ input {
     flex-wrap: wrap;
 }
 
-
-
-
-
-
-
-.clickme {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    border-radius: 20px;
-    flex-wrap: wrap;
-
-}
-
 .container12 {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -355,6 +333,8 @@ display:flex;
     float: left;
  animation: 5s slide infinite;
 }
+<<<<<<< HEAD
+=======
 .gofundme{
     display:flex;
     flex-wrap:wrap;
@@ -379,3 +359,4 @@ background{
   object-fit: cover;
   opacity: 1;
 }
+>>>>>>> 78844182fa613fabba97c069bd71f268dcc4c46b
