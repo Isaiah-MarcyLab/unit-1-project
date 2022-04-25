@@ -7,11 +7,11 @@
 body{
     display:flex;
     flex-wrap:wrap;
-     background-clip: url('/unit-1-project/blm3.mp4');
+background-image: url(blm.jpg);
   min-height: 100%;
   background-position: center;
   background-size: cover;
-    height:100vh;
+    height:100%;
     width:100%;
     position:absolute;
     margin:auto;
@@ -50,7 +50,7 @@ nav {
     background-color: #deaa88;
     flex-wrap: wrap;
     border: 3px solid black; 
-   
+   padding:30px;
     width:100%;
  
 }
@@ -80,7 +80,7 @@ main{
     flex-wrap:wrap;
     justify-content:center;
 margin:auto;
-
+background-image: url(/unit-1-project/blm.jpg);
   min-height: 100%;
   height:100vh;
   background-position: center;
@@ -106,10 +106,12 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     position: absolute;
-    top:100%;
+top:1200px;
     width: 100%;
-    height: 100vh;
+
+    margin-right: 0px;
     text-align: center;
+ 
 }
 .container12 {
     display: flex;
@@ -118,7 +120,7 @@ footer {
     padding: 30px;
     width: 100%;
     bottom:5px;
-    position: relative;
+  
     margin-bottom: 0px;
 
    
@@ -132,6 +134,7 @@ footer {
   margin-bottom:10px;
     width:100vh;
     height:100vh;
+    top:500px;
 
    animation: 20s slidy infinite;
     
@@ -235,8 +238,8 @@ display:flex;
     display:flex;
     flex-wrap:wrap;
 position: absolute;
-left:10px;
-top:90px;
+left:0px;
+top:800px;
 background-color: white;
     height: 150px;
     width: 150px;
@@ -244,5 +247,13 @@ background-color: white;
     object-fit: cover;
     margin: auto;
     float: left;
- animation: 5s slidy infinite;
+
+}
+.clickme {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border-radius: 20px;
+    flex-wrap: wrap;
+
 }
