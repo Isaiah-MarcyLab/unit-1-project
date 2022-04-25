@@ -6,14 +6,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+ 
 body {
-    background-clip:url(blm3.mp4);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+ display: flex;
+ flex-wrap:wrap;
+ 
 
 }
+
 
 a {
     color: #000;
@@ -115,7 +115,7 @@ img {
     flex-wrap: wrap;
     flex-direction::row;
     justify-content: center;
-    width: 64%;
+    width: 48%;
    
 
 }
@@ -369,5 +369,13 @@ background-color: white;
     margin: auto;
     float: left;
  animation: 5s slide infinite;
-
+}
+background{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 1300px;
+  height: 1300p
+  object-fit: cover;
+  opacity: 1;
 }
