@@ -8,11 +8,10 @@
 }
 
 body {
-    background-image: url(blm.jpg);
+    background-clip:url(blm3.mp4);
     background-size: cover;
-    height: 20vh;
+    height: 100%;
     width: 100%;
-    position: absolute;
 
 }
 
@@ -112,16 +111,12 @@ img {
 
 .hero {
     display: flex;
+
     flex-wrap: wrap;
-    position: absolute;
-    object-fit: contain;
-    flex-direction: column;
+    flex-direction::row;
     justify-content: center;
-    width: 1100px;
-    height: 10px;
-    position: absolute;
-    left: 20px;
-    top: 165px;
+    width: 64%;
+   
 
 }
 
@@ -131,9 +126,9 @@ imgContainer {
     flex-direction: row;
     Width: 100%;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 90px;
     position: absolute;
-    top: 180px;
+    top: 310px;
 }
 
 #section-img {
@@ -221,20 +216,6 @@ input {
 
 
 
-.Mental {
-    display: flex;
-    position: absolute;
-    flex-wrap: wrap;
-    background-image: url(blm2.avif);
-    justify-content: center;
-    text-color: white;
-
-
-    width: 50%;
-    top: 550px;
-    right: 550px;
-    position: absolute;
-}
 
 
 .clickme {
@@ -266,17 +247,18 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     position: absolute;
-    top: 1000px;
+    bottom:5px;
     width: 100%;
-    text-align: center
+    text-align: center;
 }
 
-.imagecontainer {
+.slidecontainer {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    left: 1000px;
-    top: 600px;
+    left:80%;
+    top: 60px;
+    width:100%;
 
 
 }
@@ -346,29 +328,46 @@ footer {
 }
 
 .Slideshow figure {
+display:flex;
+   border-radius: 150px;
 
-    height: 346px;
-    width: 346px;
+    height: 286px;
+    width: 286px;
     object-fit: cover;
     margin: auto;
     float: left;
-    animation: 5s slidy infinite;
+ animation: 5s slide infinite;
 
 
 }
 
 .Slideshow figure img {
-
+display:flex;
     object-fit: cover;
     flex-wrap: wrap;
     background-color: white;
-    border-radius: 200px;
+    border-radius: 150px;
 
-    height: 346px;
-    width: 346px;
+    height: 286px;
+    width: 286px;
 
     margin: auto;
     float: left;
-    animation: 5s slidy infinite;
+ animation: 5s slide infinite;
+}
+.gofundme{
+    display:flex;
+    flex-wrap:wrap;
+position: absolute;
+left:10px;
+top:90px;
+background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius:150px;
+    object-fit: cover;
+    margin: auto;
+    float: left;
+ animation: 5s slide infinite;
 
 }
