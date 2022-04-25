@@ -119,7 +119,7 @@ img {
     display: flex;
 
     flex-wrap: wrap;
-    flex-direction::row;
+    flex-direction:row;
     justify-content: center;
     width: 48%;
    
@@ -132,7 +132,7 @@ imgContainer {
     flex-direction: row;
     Width: 100%;
     flex-wrap: wrap;
-    margin: 90px;
+    margin: 10px;
     position: absolute;
     top: 310px;
 }
@@ -219,15 +219,33 @@ input {
 
 
 
-footer {
+footer{
+    margin-top: 100vh;
+     background-color:#987456;
+    padding: 20px;
+}
+
+.ulFooter{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    padding: 10px;
     flex-wrap: wrap;
-    position: absolute;
-    bottom:5px;
-    width: 100%;
-    text-align: center;
+}
+
+.ulFooter li{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    padding-right: 10px;
+    flex-wrap: wrap;
 }
 
 .slidecontainer {
