@@ -6,14 +6,21 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+ 
 body {
+<<<<<<< HEAD
     background-clip:url(blm3.mp4);
     background-size: cover;
     height: 120vh;
     width: 100%;
+=======
+ display: flex;
+ flex-wrap:wrap;
+ 
+>>>>>>> 78844182fa613fabba97c069bd71f268dcc4c46b
 
 }
+
 
 a {
     color: #000;
@@ -114,7 +121,7 @@ img {
     flex-wrap: wrap;
     flex-direction::row;
     justify-content: center;
-    width: 64%;
+    width: 48%;
    
 
 }
@@ -326,3 +333,30 @@ display:flex;
     float: left;
  animation: 5s slide infinite;
 }
+<<<<<<< HEAD
+=======
+.gofundme{
+    display:flex;
+    flex-wrap:wrap;
+position: absolute;
+left:10px;
+top:90px;
+background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius:150px;
+    object-fit: cover;
+    margin: auto;
+    float: left;
+ animation: 5s slide infinite;
+}
+background{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 1300px;
+  height: 1300p
+  object-fit: cover;
+  opacity: 1;
+}
+>>>>>>> 78844182fa613fabba97c069bd71f268dcc4c46b
