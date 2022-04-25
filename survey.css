@@ -86,6 +86,7 @@ background-image: url(/unit-1-project/blm.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
+  font-color:white;
 
 }
 
@@ -136,7 +137,7 @@ top:1200px;
     height:100vh;
     top:500px;
 
-   animation: 20s slidy infinite;
+   
     
 
 }
@@ -146,7 +147,7 @@ top:1200px;
     flex-wrap: wrap;
     object-fit: cover;
     float: right;
-    animation: 5s slidy infinite;
+ animation: 20s slidy infinite;
 
 
 
