@@ -38,12 +38,13 @@ body {
     margin-top: 5px;  
     border-radius: 5px;
 }
-@media only screen and (max-width: 300px){
+
+@media only screen and (max-width: 500px){
        #threeliners div{
         display: none;
     }
 }
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 500px){
        .fist{
         display: none;
     }
@@ -95,7 +96,6 @@ a:hover {
 #hero {
     display: flex;
     justify-content: center;
-    position: sticky;
     flex-wrap: wrap;
 }
 
@@ -217,21 +217,6 @@ input {
     flex-wrap: wrap;
 }
 
-.container12 {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 30px;
-    width: 100%;
-    position: absolute;
-    bottom: 1px;
-    margin: auto;
-
-}
-
-
-
 footer {
     display: flex;
     flex-direction: row;
@@ -243,133 +228,130 @@ footer {
     text-align: center;
 }
 
-.slidecontainer {
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    left:80%;
-    top: 60px;
-    width:100%;
+/*.Slideshow figure img {*/
+/*display:flex;*/
+/*    object-fit: cover;*/
+/*    flex-wrap: wrap;*/
+/*    background-color: white;*/
+/*    border-radius: 150px;*/
+
+/*    height: 286px;*/
+/*    width: 286px;*/
+
+/*    margin: auto;*/
+/*    float: left;*/
+/* animation: 5s slide infinite;*/
+/*}*/
+/*.slidecontainer {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    position: absolute;*/
+/*    left:80%;*/
+/*    top: 60px;*/
+/*    width:100%;*/
 
 
-}
+/*}*/
 
-.Slideshow {
-    display: flex;
-    flex-wrap: wrap;
-    object-fit: cover;
-    float: left;
-    animation: 5s slide infinite;
-
-
+/*.Slideshow {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    object-fit: cover;*/
+/*    float: left;*/
+/*    animation: 5s slide infinite;*/
 
 
-}
-
-@keyframes slidy {
-
-    0% {
-        left: 0%;
-    }
-
-    20% {
-        left: 0%;
-    }
-
-    25% {
-        left: -100%;
-    }
-
-    45% {
-        left: -100%;
-    }
-
-    50% {
-        left: -200%;
-    }
-
-    75% {
-        left: -200%;
-    }
-
-    75% {
-        left: -300%;
-    }
-
-    95% {
-        left: -300%;
-    }
-
-    100% {
-        left: -400%;
-    }
-
-}
-
-.Slideshow figure img {
-    overflow: hidden;
-}
-
-.Slideshow figure {
-    overflow: hidden;
-}
-
-.Slideshow {
-    overflow: hidden;
-}
-
-.Slideshow figure {
-display:flex;
-   border-radius: 150px;
-
-    height: 286px;
-    width: 286px;
-    object-fit: cover;
-    margin: auto;
-    float: left;
- animation: 5s slide infinite;
 
 
-}
+/*}*/
 
-.Slideshow figure img {
-display:flex;
-    object-fit: cover;
-    flex-wrap: wrap;
-    background-color: white;
-    border-radius: 150px;
+/*@keyframes slidy {*/
 
-    height: 286px;
-    width: 286px;
+/*    0% {*/
+/*        left: 0%;*/
+/*    }*/
 
-    margin: auto;
-    float: left;
- animation: 5s slide infinite;
-}
-<<<<<<< HEAD
-=======
-.gofundme{
-    display:flex;
-    flex-wrap:wrap;
-position: absolute;
-left:10px;
-top:90px;
-background-color: white;
-    height: 300px;
-    width: 300px;
-    border-radius:150px;
-    object-fit: cover;
-    margin: auto;
-    float: left;
- animation: 5s slide infinite;
-}
-background{
-    position: absolute;
-  top: 0;
-  left: 0;
-  width: 1300px;
-  height: 1300p
-  object-fit: cover;
-  opacity: 1;
-}
->>>>>>> 78844182fa613fabba97c069bd71f268dcc4c46b
+/*    20% {*/
+/*        left: 0%;*/
+/*    }*/
+
+/*    25% {*/
+/*        left: -100%;*/
+/*    }*/
+
+/*    45% {*/
+/*        left: -100%;*/
+/*    }*/
+
+/*    50% {*/
+/*        left: -200%;*/
+/*    }*/
+
+/*    75% {*/
+/*        left: -200%;*/
+/*    }*/
+
+/*    75% {*/
+/*        left: -300%;*/
+/*    }*/
+
+/*    95% {*/
+/*        left: -300%;*/
+/*    }*/
+
+/*    100% {*/
+/*        left: -400%;*/
+/*    }*/
+
+/*}*/
+
+/*.Slideshow figure img {*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.Slideshow figure {*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.Slideshow {*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.Slideshow figure {*/
+/*display:flex;*/
+/*   border-radius: 150px;*/
+
+/*    height: 286px;*/
+/*    width: 286px;*/
+/*    object-fit: cover;*/
+/*    margin: auto;*/
+/*    float: left;*/
+/* animation: 5s slide infinite;*/
+
+
+/*}*/
+
+/*.gofundme{*/
+/*    display:flex;*/
+/*    flex-wrap:wrap;*/
+/*position: absolute;*/
+/*left:10px;*/
+/*top:90px;*/
+/*background-color: white;*/
+/*    height: 300px;*/
+/*    width: 300px;*/
+/*    border-radius:150px;*/
+/*    object-fit: cover;*/
+/*    margin: auto;*/
+/*    float: left;*/
+/* animation: 5s slide infinite;*/
+/*}*/
+/*background{*/
+/*    position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  width: 1300px;*/
+/*  height: 1300p*/
+/*  object-fit: cover;*/
+/*  opacity: 1;*/
+/*}*/
