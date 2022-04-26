@@ -8,16 +8,15 @@
 }
  
 body {
-<<<<<<< HEAD
+
     background-clip:url(blm3.mp4);
     background-size: cover;
     height: 120vh;
     width: 100%;
-=======
- display: flex;
- flex-wrap:wrap;
+    
+    flex-wrap:wrap;
  
->>>>>>> 78844182fa613fabba97c069bd71f268dcc4c46b
+
 
 }
 
