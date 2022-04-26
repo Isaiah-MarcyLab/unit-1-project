@@ -94,6 +94,7 @@ body{
 
 article{
     position: absolute;
+    top:200px;
     display:flex;
     flex-direction:row;
     padding:30px;
@@ -112,7 +113,7 @@ img{
 .OurStories{
     display: flex;
     text-align: center;
-    width: 20%;
+    width: 30%;
     min-width: 300px;
     margin: 10px;
     border: 1px solid #000;
@@ -136,12 +137,16 @@ img{
  
 }
 
-#OurMission center{
+#OurMission {
     margin-top: 25px;
     width: 90%;
     margin-left: 85px;
     flex-wrap: wrap;
     position: absolute;
+    top:150px;
+    margin-bottom:75px;
+    color:white;
+    font-weight: bold;
 }
 
 
@@ -151,10 +156,11 @@ img{
 
 header {
     position:absolute;
-    margin-top: 45px;
+    top: 85px;
     display: flex;
     width:50%;
     align-items: center;
+    justify-content:center;
     flex-wrap: wrap;
     margin-bottom: 50px;
     color:white;
@@ -189,17 +195,18 @@ header {
     justify-content: flex-end;
     padding-right: 10px;
     flex-wrap: wrap;
+        
 }
 
 footer span {
-    position:absolute;
+   
     margin-top: 5px;
     display: flex;
     justify-content: flex-end;
     font-size: 0.9em;
     padding-right: 10px;
     flex-wrap: wrap;
-    bottom:0px;
+    margin-bottom:0px;
 }
 
 #myVideo{
