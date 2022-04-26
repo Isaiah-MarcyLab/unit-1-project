@@ -132,14 +132,14 @@ top:1200px;
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
-    order:row;
-    position: absolute;
-    left:50%;
-  margin-bottom:10px;
+   
+    position: fixed;
+    left:80%;
+
     width:20%;
    
-    top:500px;
-
+    top:650px;
+ animation: 20s slidy infinite;
 
    
     
@@ -259,4 +259,11 @@ width:20%;
    
   justify-content:start;
 
+}
+#hero {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
