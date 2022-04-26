@@ -221,32 +221,249 @@ input {
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
-footer {
-=======
-.container12 {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 30px;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+ 
+body {
+
+    background-clip:url(blm3.mp4);
+    background-size: cover;
+    height: 120vh;
     width: 100%;
+
+
+    flex-wrap:wrap;
+ 
+}
+
+
+
+.fist{
+    margin-top: 4px;  
+    margin-bottom: 8px;
+    margin-right: 5px;
+    color:black;
+}
+#threeliners {
     position: absolute;
-    bottom: 1px;
+    left: 10px;
+    margin-top: 8px;  
+    
+}
+
+#threeliners div {
+    background-color:black;
+    width: 40px;
+    height: 5px;
+    margin: 5px;
+    margin-top: 5px;  
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px){
+       #threeliners div{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px){
+       .fist{
+        display: none;
+    }
+}
+
+
+#theNav{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    border-bottom:2px solid black;
+    background-color:#987456;
+}
+
+
+
+a{
+    color:black;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    font-style: italic;
+}
+a:hover {
+  background-color: #c19a6b;
+  border-radius: 190px;
+}
+
+#theNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+#theNav li {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#form {margin-top:580px;}
+
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     margin: auto;
 
+}
+
+section ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+
+}
+
+.para{
+    font-size: 20px;
+    
+    
+}
+
+img {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#hero{
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    width: 48%;
+   
+}
+
+/*margin-top:600px;*/
+
+imgContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    Width: 100%;
+    flex-wrap: wrap;
+    margin: 10px;
+    position: absolute;
+    top: 160px;
+}
+
+#section-iframe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 5);
+    height: calc(100%/5);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+article {
+    list-style: inside;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 5px;
+    top: 140px;
+}
+
+.button {
+    font-size: 1em;
+    font-weight: 100;
+    margin-left: 10px;
+    background-color: #a0785a;
+    width: 60px;
+    height: 30px;
+    display: flex;
+
+}
+
+input {
+    margin-bottom: 10px;
+    max-width: 275px;
+    width: 270px;
+    padding: 5px;
+    border: 3px solid black;
+    background-color: #a0785a;
+    color: black;
+}
+#submit > .button{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+::placeholder {
+    color: black;
+}
+
+#hero {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
 
 footer{
-    margin-top: 100vh;
-     background-color:#987456;
+    text-align: center;
     padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#987456;
+    flex-wrap: wrap;
 }
 
 .ulFooter{
->>>>>>> 155e098bc35a84650a6f87d2e29083bbc349ed6a
     display: flex;
     justify-content: flex-end;
     padding: 10px;
@@ -279,7 +496,6 @@ footer span {
 /*    height: 286px;*/
 /*    width: 286px;*/
 
-<<<<<<< HEAD
 /*    margin: auto;*/
 /*    float: left;*/
 /* animation: 5s slide infinite;*/
@@ -397,125 +613,3 @@ footer span {
 /*  object-fit: cover;*/
 /*  opacity: 1;*/
 /*}*/
-=======
-}
-
-.Slideshow {
-    display: flex;
-    flex-wrap: wrap;
-    object-fit: cover;
-    float: left;
-    animation: 5s slide infinite;
-
-
-
-
-}
-
-@keyframes slidy {
-
-    0% {
-        left: 0%;
-    }
-
-    20% {
-        left: 0%;
-    }
-
-    25% {
-        left: -100%;
-    }
-
-    45% {
-        left: -100%;
-    }
-
-    50% {
-        left: -200%;
-    }
-
-    75% {
-        left: -200%;
-    }
-
-    75% {
-        left: -300%;
-    }
-
-    95% {
-        left: -300%;
-    }
-
-    100% {
-        left: -400%;
-    }
-
-}
-
-.Slideshow figure img {
-    overflow: hidden;
-}
-
-.Slideshow figure {
-    overflow: hidden;
-}
-
-.Slideshow {
-    overflow: hidden;
-}
-
-.Slideshow figure {
-display:flex;
-   border-radius: 150px;
-
-    height: 286px;
-    width: 286px;
-    object-fit: cover;
-    margin: auto;
-    float: left;
- animation: 5s slide infinite;
-
-
-}
-
-.Slideshow figure img {
-display:flex;
-    object-fit: cover;
-    flex-wrap: wrap;
-    background-color: white;
-    border-radius: 150px;
-
-    height: 286px;
-    width: 286px;
-
-    margin: auto;
-    float: left;
- animation: 5s slide infinite;
-}
-
-.gofundme{
-    display:flex;
-    flex-wrap:wrap;
-position: absolute;
-left:10px;
-top:90px;
-background-color: white;
-    height: 300px;
-    width: 300px;
-    border-radius:150px;
-    object-fit: cover;
-    margin: auto;
-    float: left;
- animation: 5s slide infinite;
-}
-background{
-    position: absolute;
-  top: 0;
-  left: 0;
-  width: 1300px;
-  height: 1300px;
-  object-fit: cover;
-  opacity: 1;
-}
-
->>>>>>> 155e098bc35a84650a6f87d2e29083bbc349ed6a
