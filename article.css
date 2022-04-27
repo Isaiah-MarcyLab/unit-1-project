@@ -124,7 +124,7 @@ article{
 }
 img{
     margin-top: 10px;
-    border:2px solid black;
+    border:5px solid black;
 }
 
 
@@ -172,15 +172,19 @@ img{
     justify-content: center;
     padding: 10px;
     flex-wrap: wrap;
+     list-style: none;
 }
 
 #underCard li{
-    display: flex;
+     list-style: none;
     justify-content: center;
     padding-right: 10px;
     flex-wrap: wrap;
 }
 
+#underCard li a{
+      list-style: none;
+}
 /* footer{*/
 /*    margin-top: 10px;*/
 /*    background-color:#987456;*/
@@ -191,12 +195,13 @@ img{
 /*}*/
 
 footer{
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    display: flex;
+    width: 0 auto;
     background-color:#987456;
+    position: sticky;
+    justify-content: flex-end;
+    position:fixed;bottom:0;left:0;right:0;height: 0 auto;
+    border-top:2px solid black;
     flex-wrap: wrap;
 }
 
