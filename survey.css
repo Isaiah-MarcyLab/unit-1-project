@@ -8,6 +8,10 @@ body{
     flex-wrap:wrap;
   min-height: 100%;
   background-position: center;
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> bbd990d3ce5e5c5695ba25dd32dadc7c225e5891
     height:100vh;
     width:100%;
     position:absolute;
@@ -53,6 +57,10 @@ body{
     background-color:#CEF9F2;
     width:100%;
     padding:10px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> bbd990d3ce5e5c5695ba25dd32dadc7c225e5891
 }
 a{
     color:black;
@@ -186,6 +194,8 @@ footer span {
         left: -400%;
     }
 }
+
+
 .Slideshow {
     display: flex;
     flex-wrap: wrap;
@@ -203,6 +213,9 @@ footer span {
  width:184px;
 border-radius:100px;
 }
+
+
+
 .Slideshow figure {
  display:flex;
  height:184px;
@@ -250,6 +263,10 @@ position: absolute;
       background-color: white;
       color:black;
       border-color: transparent;
+ 
+    
+  
+
 }
 #hero {
     display: flex;
@@ -266,9 +283,12 @@ position: absolute;
     font-size: 1em;
     align-items:center;
     font-weight: 100;
-    background-color: #A0785A;
+    
+    background-color: #a0785a;
     width: 60px;
     height: 30px;
+ 
+
 }
 #h5{
     display:flex;

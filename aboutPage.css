@@ -43,7 +43,8 @@
 
 
 #theNav{
-    position: sticky;
+    position: absolute;
+    width:100%;
     top: 0px;
     display: flex;
     text-align: center;
@@ -74,7 +75,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
 
 #theNav li {
@@ -82,6 +83,9 @@ a:hover {
     display: flex;
     margin: 5px;
     flex-wrap: wrap;
+    
+    
+
 }
 
 body{
@@ -89,11 +93,17 @@ body{
 }
 
 article{
+    position: absolute;
+    top:200px;
+    display:flex;
+    flex-direction:row;
+    padding:30px;
     margin-top: 60px;
     display: flex;
     justify-content:center;
     width: 100%;
     flex-wrap: wrap;
+    color:white;
 }
 
 img{
@@ -101,7 +111,7 @@ img{
 }
 
 .OurStories{
-    align-items: center;
+    display: flex;
     text-align: center;
     width: 30%;
     min-width: 300px;
@@ -115,10 +125,11 @@ img{
     background-color: #987456;
     color: black;
     padding: 15px 0;
-    width: 100%;
+   
     text-transform: uppercase;
     font-weight: 700;
     flex-wrap: wrap;
+  
 }
 
 .OurStories h3:hover {
@@ -126,13 +137,25 @@ img{
  
 }
 
+<<<<<<< HEAD
 #OurMission{
     text-align: center;
     display: flex;
     /*justify-con*/
     flex-direction: column;
     align-items: center;
+=======
+#OurMission {
+    margin-top: 25px;
+    width: 90%;
+    margin-left: 85px;
+>>>>>>> bbd990d3ce5e5c5695ba25dd32dadc7c225e5891
     flex-wrap: wrap;
+    position: absolute;
+    top:150px;
+    margin-bottom:75px;
+    color:white;
+    font-weight: bold;
 }
 
 
@@ -141,12 +164,16 @@ img{
 }
 
 header {
-    margin-top: 25px;
+    position:absolute;
+    top: 85px;
     display: flex;
-    flex-direction: column;
+    width:50%;
     align-items: center;
+    justify-content:center;
     flex-wrap: wrap;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    color:white;
+
 }
 
 /*#footer{*/
@@ -156,12 +183,21 @@ header {
 /*  height: 2.5rem;*/
 /*}*/
  footer{
+<<<<<<< HEAD
     display: flex;
     width: 0 auto;
     background-color:#987456;
     position: sticky;
     justify-content: flex-end;
     position:fixed;bottom:0;left:0;right:0;height: 0 auto;
+=======
+     position: absolute;
+    margin-top: 10px;
+    background-color:#987456;
+    width:100%;
+  bottom:0px;
+    margin-bottom: 0px;
+>>>>>>> bbd990d3ce5e5c5695ba25dd32dadc7c225e5891
     border-top:2px solid black;
     flex-wrap: wrap;
 }
@@ -177,13 +213,25 @@ header {
     justify-content: flex-end;
     padding-right: 10px;
     flex-wrap: wrap;
+        
 }
 
 footer span {
+   
     margin-top: 5px;
     display: flex;
     justify-content: flex-end;
     font-size: 0.9em;
     padding-right: 10px;
     flex-wrap: wrap;
+    margin-bottom:0px;
+}
+
+#myVideo{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+   object-fit: cover;
 }
