@@ -1,76 +1,66 @@
 * {
     padding: 0;
-    margin: auto;
+    margin: 0;
     box-sizing: border-box;
-    
-
 }
 
-body{
-    display:flex;
-    flex-wrap:wrap;
-
-  min-height: 100%;
-  background-position: center;
- 
-    height:100vh;
-    width:100%;
-    position:absolute;
-    margin:auto;
-    
-}
-
-.fist{
-    margin-top: 4px;  
+/*.pageWrapper{*/
+/*    padding-bottom: 2.5rem; */
+/*    flex-wrap:wrap;*/
+/*}*/
+.fist {
+    margin-top: 4px;
     margin-bottom: 8px;
     margin-right: 5px;
-    color:black;
+    color: black;
 }
+
 #threeliners {
     position: absolute;
     left: 10px;
-    margin-top: 8px;  
-    
+    margin-top: 8px;
 }
 
 #threeliners div {
-    background-color:black;
+    background-color: black;
     width: 40px;
     height: 5px;
     margin: 5px;
-    margin-top: 5px;  
+    margin-top: 5px;
     border-radius: 5px;
 }
-@media only screen and (max-width: 500px){
-       #threeliners div{
-        display: none;
-    }
-}
-@media only screen and (max-width: 500px){
-       .fist{
+
+@media only screen and (max-width: 500px) {
+    #threeliners div {
         display: none;
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .fist {
+        display: none;
+    }
+}
 
-#theNav{
+#theNav {
     position: sticky;
     top: 0px;
     display: flex;
-    flex-wrap:wrap;
     text-align: center;
     justify-content: flex-end;
+<<<<<<< HEAD
     border-bottom:2px solid black;
     background-color:#987456;
     width:100%;
     padding:10px;
+=======
+    border-bottom: 2px solid black;
+>>>>>>> 97205d41d3680c81bb5cb9beb54c246598e60415
 
 }
 
-
-
-a{
-    color:black;
+a {
+    color: white;
     text-decoration: none;
     height: 30px;
     line-height: 30px;
@@ -79,9 +69,10 @@ a{
     margin-top: 5px;
     font-style: italic;
 }
+
 a:hover {
-  background-color: #FCE21B;
-  border-radius: 190px;
+    background-color: #C19A6B;
+    border-radius: 190px;
 }
 
 #theNav ul {
@@ -89,9 +80,6 @@ a:hover {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    with:100%;
-    object-fit: cover;
-    background-color: transparent;
 }
 
 #theNav li {
@@ -99,51 +87,60 @@ a:hover {
     display: flex;
     margin: 5px;
     flex-wrap: wrap;
-      object-fit: cover;
-    
 }
 
-main{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-margin:auto;
-background-color: white;
-  height:100vh;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  color:white;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
     object-fit: cover;
-
 }
 
-#myVideo{
+body {
+
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#myVideo {
     position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-   object-fit: cover;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
 }
 footer{
+<<<<<<< HEAD
     display:flex;
     margin-top: 10px;
+=======
+    display: flex;
+    width: 0 auto;
+>>>>>>> 97205d41d3680c81bb5cb9beb54c246598e60415
     background-color:#987456;
     position: sticky;
-    bottom: 0px;
-    width:100%;
+    justify-content: flex-end;
+    position:fixed;bottom:0;left:0;right:0;height: 0 auto;
     border-top:2px solid black;
-    position:fixed;
+    flex-wrap: wrap;
 }
-.ulFooter{
+
+.ulFooter {
     display: flex;
     justify-content: flex-end;
     padding: 10px;
     flex-wrap: wrap;
 }
 
-.ulFooter li{
+.ulFooter li {
     display: flex;
     justify-content: flex-end;
     padding-right: 10px;
@@ -159,70 +156,68 @@ footer span {
     flex-wrap: wrap;
 }
 
-
 .video {
-  display: flex;
-  position: absolute;
-
-   width: 100%;
-  height: 100vh;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
     z-index: -1;
     object-fit: cover;
     min-height: 100%;
     min-width: 100%;
 }
 
-
-
 .slidecontainer {
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row;
-   object-fit: cover;
+    flex-direction: row;
+    object-fit: cover;
     position: fixed;
-    left:80%;
-
-    width:50%;
-   right:5px;
-    bottom:60px;
- animation: 20s slidy infinite;
-
-   
-    
-
+    left: 80%;
+    width: 50%;
+    right: 5px;
+    bottom: 60px;
+    animation: 20s slidy infinite;
 }
-
-
 
 @keyframes slidy {
     0% {
         left: 0%;
     }
+
     20% {
         left: 0%;
     }
+
     25% {
         left: -100%;
     }
+
     45% {
         left: -100%;
     }
+
     50% {
         left: -200%;
     }
+
     75% {
         left: -200%;
     }
+
     75% {
         left: -300%;
     }
+
     95% {
         left: -300%;
     }
+
     100% {
         left: -400%;
     }
 }
+
 
 .Slideshow {
     display: flex;
@@ -231,59 +226,50 @@ footer span {
     float: left;
     animation: 5s slide infinite;
     float: right;
-    
-
 }
 
 .Slideshow figure img {
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
-     animation: 30s slidy infinite;
-      height:184px;
- width:184px;
-border-radius:100px;
+    animation: 30s slidy infinite;
+    height: 184px;
+    width: 184px;
+    border-radius: 100px;
 }
+
 
 
 .Slideshow figure {
- display:flex;
- height:184px;
- width:184px
-;
-border-radius:100px;
+    display: flex;
+    height: 184px;
+    width: 184px;
+    border-radius: 100px;
     object-fit: cover;
     margin: auto;
     float: left;
-
- animation: 30s slidy infinite;
-
-
+    animation: 30s slidy infinite;
 }
 
-
-
-.gofundme{
-    display:flex;
-    flex-wrap:wrap;
-position: absolute;
-left:335px;
-top:420px;
-background-color: transparent;
-  color: white;
-width:20%;
+.gofundme {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 335px;
+    top: 420px;
+    background-color: transparent;
+    color: white;
+    width: 20%;
     object-fit: cover;
     margin: auto;
-   
-
 }
+
 .clickme {
     display: flex;
     flex-wrap: wrap;
-   
-  justify-content:start;
-
+    justify-content: start;
 }
+
 #hero {
     display: flex;
     margin: 10px;
@@ -291,6 +277,7 @@ width:20%;
     align-items: center;
     flex-wrap: wrap;
 }
+<<<<<<< HEAD
 .fieldset{
     
     display:flex;
@@ -307,6 +294,25 @@ position: absolute;
  
     
   
+=======
+
+.fieldset {
+    display: flex;
+    position: absolute;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 0px;
+    top: 50px;
+    object-fit: cover;
+    background-color: white;
+    color: black;
+    border-color: transparent;
+
+
+
+
+>>>>>>> 97205d41d3680c81bb5cb9beb54c246598e60415
 }
 
 #hero {
@@ -315,182 +321,132 @@ position: absolute;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width:100%;
+    width: 100%;
 }
 
 .button {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: 1em;
-    align-items:center;
+    align-items: center;
     font-weight: 100;
-    
+
     background-color: #a0785a;
     width: 60px;
     height: 30px;
- 
+
 
 }
-#h5{
-    
-    display:flex;
-    color:white;
+
+#h5 {
+    display: flex;
+    color: white;
     margin-top: 0px;
-    
-    
 }
+
 @media(max-width: 600px) {
-
-
     #hero {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
-
-
+        flex-wrap: wrap;
     }
 }
 
 @media(max-width: 600px) {
-
-
     .fieldset {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
+        flex-wrap: wrap;
         align-items: center;
-
-
     }
 }
+
 @media(max-width: 600px) {
-
-
     .body {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
-        height:1500px;
-        align-items:center;
+        flex-wrap: wrap;
+        height: 1500px;
+        align-items: center;
         background-color: white;
-         background-color: white;
+        background-color: white;
         background-image: none;
-
-
     }
 }
+
 @media(max-width: 600px) {
-
-
     .main {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
-        height:1500px;
-        width:20%;
-        align-items:center;
+        flex-wrap: wrap;
+        height: 1500px;
+        width: 20%;
+        align-items: center;
         background-color: white;
         background-image: none;
-
-
     }
 }
 
-
 @media(max-width: 600px) {
-
-
     .Slideshow {
         display: flex;
         flex-direction: column;
         justify-content: center;
-            flex-wrap:wrap;
-
-
+        flex-wrap: wrap;
     }
 }
 
 @media(max-width: 600px) {
-
-
     .footer {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
+        flex-wrap: wrap;
         justify-content: center;
-
-
     }
 }
 
 @media(max-width: 600px) {
-
-
     .theNav {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
+        flex-wrap: wrap;
         justify-content: center;
-
-
     }
-
 }
 
 @media(max-width: 600px) {
-
-
     .slidecontainer {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
+        flex-wrap: wrap;
         justify-content: center;
-
-
     }
 }
 
-
-
-
 @media(max-width: 600px) {
-
-
     .Slideshow {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
+        flex-wrap: wrap;
         justify-content: center;
-
-
     }
 }
 
-
 @media(max-width: 600px) {
-
-
     .gofundme {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
+        flex-wrap: wrap;
         justify-content: center;
-
-
     }
 }
 
-
 @media(max-width: 600px) {
-
-
     .ulFooter {
         display: flex;
         flex-direction: column;
-    flex-wrap:wrap;
+        flex-wrap: wrap;
         justify-content: center;
-
-
     }
 }

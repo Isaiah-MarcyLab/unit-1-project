@@ -216,6 +216,7 @@ footer{
     justify-content: flex-end;
     padding-right: 10px;
     flex-wrap: wrap;
+<<<<<<< HEAD
 }
 /*#myVideo{
     position: fixed;
@@ -276,4 +277,6 @@ footer{
 position:center;
 
    
+=======
+>>>>>>> 97205d41d3680c81bb5cb9beb54c246598e60415
 }
